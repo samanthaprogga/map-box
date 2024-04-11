@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nishat Samanta Progga">
+  <meta name="description" content="">
+  <meta name="keywords" content="html, css, web, web development, javascript">
+  <title>Map-Box</title>
+  <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+  <link rel="stylesheet" href="./assets/style/index.css">
+</head>
+<body>
+  <header>
+    <h1>RIDER</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Track Your Package</h1>
+    <p>Stay connected and track your package on the go!</p>
+
+    <button id="trackButton">Track</button>
+
+    <div id="map-container">
+      <div id="map"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="copyright">&copy; Nishat Samanta Progga</p>
+  </footer>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+  <script src="./assets/script/app.js"></script>
+</body>
+</html>
