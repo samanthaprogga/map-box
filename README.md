@@ -10,12 +10,14 @@ The application allows users to track their packages in real-time on an interact
 
 To use the application, simply visit the following link: [Map-Box](https://samanthaprogga.github.io/map-box/)
 
-## Technologies Used
+## Languages Used
 
-- HTML
-- CSS
-- JavaScript
-- MapBox
+![JavaScript](https://img.shields.io/badge/CODE-JAVASCRIPT-blue?style=for-the-badge
+)
+![HTML5](https://img.shields.io/badge/WEB-HTML-blue?style=for-the-badge
+)
+![CSS3](https://img.shields.io/badge/WEB-CSS-blue?style=for-the-badge
+)
 
 ## Author
 
